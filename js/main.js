@@ -37,7 +37,7 @@
 	};
 
 
-	/* Offcanvas and cloning of the main menu
+	// Offcanvas and cloning of the main menu
 	var offcanvas = function() {
 
 		var $clone = $('#fh5co-menu-wrap').clone();
@@ -80,7 +80,7 @@
 		});
 
 	}
-  */
+
 
 
 	// Click outside of the Mobile Menu
