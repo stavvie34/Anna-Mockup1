@@ -1355,14 +1355,13 @@ figure {
 }
 
 .fh5co-nav-toggle {
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #fff;
-}
-.fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
-  background: #fff;
+  background: #52d3aa;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1374,39 +1373,26 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  width: 30px;
-  height: 2px;
-  color: #fff;
+  width: 25px;
+  height: 3px;
+  color: #52d3aa;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #fff;
+  background: #52d3aa;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
-  width: 30px;
-  height: 2px;
-  background: #fff;
+  width: 25px;
+  height: 3px;
+  background: #52d3aa;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.fh5co-nav-toggle.dark i {
-  position: relative;
-  color: #000;
-  background: #000;
-  transition: all .2s ease-out;
-}
-.fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
-  background: #000;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
 .fh5co-nav-toggle i::before {
   top: -7px;
 }
@@ -1447,18 +1433,20 @@ figure {
 
 .fh5co-nav-toggle {
   position: absolute;
-  top: 0px;
+  top: 2px;
   right: 0px;
-  z-index: 9999;
+  z-index: 21;
+  padding: 6px 0 0 0;
   display: block;
   margin: 0 auto;
   display: none;
-  cursor: pointer;
+  height: 44px;
+  width: 25px;
+  border-bottom: none !important;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
-    top: 0px;
   }
 }
 
