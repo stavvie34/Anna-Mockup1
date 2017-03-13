@@ -22,14 +22,14 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #4CB648;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #fff !important;
+  color: #4CB648 !important;
 }
 
 p, ul, ol {
@@ -52,17 +52,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #fff;
+  background: #4CB648;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #fff;
+  background: #4CB648;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #fff;
+  background: #4CB648;
 }
 
 #fh5co-header {
@@ -199,7 +199,7 @@ figure {
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  color: ##fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -521,7 +521,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #fff !important;
+  color: #4CB648 !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -639,7 +639,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #fff !important;
+  color: #4CB648 !important;
 }
 
 #fh5co-programs-section,
@@ -733,7 +733,7 @@ figure {
   text-decoration: none;
 }
 .schedule li a.active {
-  background: #fff;
+  background: #4CB648;
   color: #fff !important;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -855,10 +855,10 @@ figure {
   position: relative;
 }
 .fh5co-pricing .price-box.popular .btn-select-plan {
-  background: #fff;
+  background: #4CB648;
 }
 .fh5co-pricing .price-box.popular .price {
-  color: #fff;
+  color: #4CB648;
 }
 .fh5co-pricing .price-box .btn-select-plan {
   padding: 10px 20px;
@@ -1086,7 +1086,7 @@ figure {
   top: 0;
   left: 0;
   padding: 10px 20px;
-  background: #fff;
+  background: #4CB648;
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .meta-date {
@@ -1142,7 +1142,7 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #fff;
+  color: #4CB648;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
@@ -1227,7 +1227,7 @@ figure {
 }
 #footer #btn-submit {
   color: rgba(255, 255, 255, 0.9) !important;
-  background: #fff !important;
+  background: #4CB648 !important;
 }
 #footer .copy-right {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -1258,14 +1258,14 @@ figure {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #fff;
+  background: #4CB648;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #fff;
+  background: #4CB648;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
