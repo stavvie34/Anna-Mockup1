@@ -1486,10 +1486,17 @@ figure {
 }
 
 /*created styles*/
+.fh5co-parallax .standard-pic-2 {
+  display:none;
+}
 
-@media screen and (max-width: 768px) {
-  #parallax-2 {
-    background-image: url(images/home-image-6.jpg);
+@media screen and (min-width: 768px) {
+  .fh5co-parallax .mobile-pic-2 {
+    display: none;
+  }
+
+  .fh5co-parallax .standard-pic-2 {
+    display: block;
   }
 }
 
