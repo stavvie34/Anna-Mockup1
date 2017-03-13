@@ -1486,3 +1486,8 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media (min-width: 768px)
+.navbar-right {
+    margin-right: 30px;
+}
