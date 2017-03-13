@@ -22,14 +22,14 @@ body {
 }
 
 a {
-  color: #4CB648;
+  color: #2196F3;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: none !important;
-  color: #4CB648 !important;
+  color: #fff !important;
 }
 
 p, ul, ol {
