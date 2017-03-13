@@ -1485,4 +1485,19 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+/*created styles*/
+.standard-pic-2 {
+  display:none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-pic-2 {
+    display: none;
+  }
+
+  .standard-pic-2 {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
